@@ -14,7 +14,7 @@ export default function Footer() {
         {/* Center: Contact Us */}
         <div className="mb-4 md:mb-0">
           <a
-            href="mailto:sportsTechMadurai@gmail.com"
+            href="mailto:sportstechmadurai@gmail.com"
             className="text-purple-400 hover:text-purple-300 transition font-medium"
           >
             Contact Us
