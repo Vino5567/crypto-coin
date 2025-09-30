@@ -6,9 +6,9 @@ export default function Hero() {
     <section
       id="home"
       className="relative pt-12 bg-cover bg-center bg-no-repeat text-white"
-      style={{ backgroundImage: `url(${heroBg})` }} // Replace with your image path
+      style={{ backgroundImage: `url(${heroBg})` }} // image
     >
-      {/* Optional overlay for better text visibility */}
+      {/* overlay for better text visibility */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 py-28 text-center">

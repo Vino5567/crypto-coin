@@ -106,7 +106,7 @@ export default function LivePrices() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search by name or symbol (e.g. bitcoin or BTC)"
+            placeholder="Search by name or by symbol"
             className="w-full sm:w-72 px-4 py-2 rounded bg-slate-800 border border-slate-700 text-white placeholder-gray-400"
           />
           <div className="text-sm text-gray-300 self-center text-center">
@@ -125,7 +125,7 @@ export default function LivePrices() {
             <table className="min-w-full divide-y divide-slate-700">
               <thead className="bg-slate-900">
                 <tr>
-                  <th className="px-4 py-3 text-left text-sm text-gray-400">#</th>
+                  <th className="px-4 py-3 text-left text-sm text-gray-400">Rank</th>
                   <th className="px-4 py-3 text-left text-sm text-gray-400">Coin</th>
                   <th className="px-4 py-3 text-left text-sm text-gray-400">Symbol</th>
                   <th className="px-4 py-3 text-right text-sm text-gray-400">Price</th>
@@ -179,7 +179,7 @@ export default function LivePrices() {
               </tbody>
             </table>
 
-            {/* Pagination controls inside table box with top border */}
+            {/* Pagination controls */}
             <div className="border-t border-slate-700 flex justify-center items-center p-4 space-x-1 text-white">
               <button
                 onClick={goPrev}
